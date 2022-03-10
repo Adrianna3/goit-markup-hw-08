@@ -93,7 +93,7 @@ input {
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    min-width: 1200px;
     padding: 0 15px;
   }
 }
@@ -821,6 +821,36 @@ input {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .button__content h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .button {
+    background-image: linear-gradient(rgba(46, 47, 59, 0.4), rgba(46, 47, 59, 0.4)), url("../images/background.jpg");
+    height: 37.5rem;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
+
 .advantages__Loremh4 {
   font-style: normal;
   font-weight: bold;
@@ -874,6 +904,7 @@ input {
 .advantages__icon {
   width: 270px;
   height: 120px;
+  margin-bottom: 30px;
 }
 
 .staff__list {
