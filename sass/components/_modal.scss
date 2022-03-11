@@ -5,10 +5,13 @@
   padding: 40px;
   transform: translate(-50%, -50%);
   background-color: $white;
-  width: 528px;
-  min-height: 581px;
+  width: 450px;
+  max-height: 609px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
 }
+
 
 .close-icon {
   width: 11px;
@@ -23,13 +26,14 @@
 
 .modal__h3 {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: $font20;
-  line-height: 23px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: $letter03;
   margin-bottom: 12px;
 }
+
 
 .modal__div {
   position: relative;
@@ -55,7 +59,7 @@
 
 .modal__label {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: $font12;
   line-height: 14px;
   letter-spacing: $letter01;
@@ -140,8 +144,8 @@
   width: 395px;
   height: 24px;
   font-style: normal;
-  font-weight: normal;
-  font-size: $font14;
+  font-weight: 400;
+  font-size: $font12;
   line-height: 24px;
   letter-spacing: $letter03;
 }
