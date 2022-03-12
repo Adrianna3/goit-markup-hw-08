@@ -23,3 +23,15 @@
     line-height: 1.192;
     letter-spacing: $letter03;
 }
+
+@media (min-width:1200px){
+  .logo{
+
+font-size: $font26;
+line-height: 31px;
+letter-spacing: 0.03em;
+    margin-right: 93px;
+
+
+  }
+}

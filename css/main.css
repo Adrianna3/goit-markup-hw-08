@@ -75,6 +75,7 @@ input {
   padding: 0 15px;
   margin: 0 auto;
   text-align: center;
+  justify-content: space-between;
 }
 
 .footer .container {
@@ -85,6 +86,20 @@ input {
   display: flex;
   align-items: center;
   height: 80px;
+  justify-content: space-between;
+}
+
+@media (min-width: 468px) and (max-width: 767px) {
+  .container .container {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .container .container {
+    max-height: 80px;
+    min-width: 768px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -93,15 +108,9 @@ input {
   }
 }
 
-@media (min-width: 468px) {
-  .container-header {
-    justify-content: space-between;
-  }
-}
-
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo {
@@ -125,6 +134,15 @@ input {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+  }
 }
 
 .backdrop {
@@ -772,10 +790,6 @@ input {
   border-bottom: 1px solid #ececec;
 }
 
-.header .address {
-  margin-left: auto;
-}
-
 .address__iconEnvelope {
   width: 16px;
   height: 12px;
@@ -792,11 +806,6 @@ input {
 
 .address {
   display: flex;
-  align-items: center;
-}
-
-.address__mail {
-  margin-right: 50px;
 }
 
 .navigation__list {
@@ -899,12 +908,14 @@ input {
   }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .navigation__list {
     display: flex;
   }
   .address {
     display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
   .hamburger {
     display: none;
@@ -918,8 +929,14 @@ input {
   .address {
     display: flex;
   }
-  .hamburger {
+  .header .address {
+    margin-left: auto;
+  }
+  .header .address .hamburger {
     display: none;
+  }
+  .header .address .address__mail {
+    margin-right: 50px;
   }
 }
 
@@ -1000,7 +1017,7 @@ input {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    max-height: 400px;
+    height: 400px;
   }
 }
 
@@ -1010,7 +1027,7 @@ input {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    max-height: 600px;
+    height: 600px;
   }
   .button__content h1 {
     font-style: normal;
@@ -1066,9 +1083,10 @@ input {
   color: #757575;
   margin: 0 0;
   padding-bottom: 30px;
+  text-align: left;
 }
 
-@media (min-width: 786px) {
+@media screen and (min-width: 768px) {
   .advantages {
     flex-direction: row;
     flex-wrap: wrap;
@@ -1112,7 +1130,7 @@ input {
 }
 
 @media screen and (min-width: 468px) and (max-width: 767px) {
-  .staff__item {
+  .staff__item:not(:last-child) {
     margin: 30px 0;
   }
 }
