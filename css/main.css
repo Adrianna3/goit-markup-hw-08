@@ -1048,6 +1048,12 @@ input {
   margin: 0 auto;
 }
 
+@media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .button {
+    background-image: linear-gradient(rgba(46, 47, 59, 0.4), rgba(46, 47, 59, 0.4)), url("../images/background-mobile-2x.jpg");
+  }
+}
+
 .button__content h1 {
   font-weight: 900;
   font-size: 26px;
@@ -1071,6 +1077,12 @@ input {
   }
 }
 
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .button {
+    background-image: linear-gradient(rgba(46, 47, 59, 0.4), rgba(46, 47, 59, 0.4)), url("../images/background-tablet-2x.jpg");
+  }
+}
+
 @media (min-width: 1200px) {
   .button {
     background-image: linear-gradient(rgba(46, 47, 59, 0.4), rgba(46, 47, 59, 0.4)), url("../images/background.jpg");
@@ -1079,6 +1091,15 @@ input {
     background-size: cover;
     height: 600px;
   }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .button {
+    background-image: linear-gradient(rgba(46, 47, 59, 0.4), rgba(46, 47, 59, 0.4)), url("../images/background2x.jpg");
+  }
+}
+
+@media (min-width: 1200px) {
   .button__content h1 {
     font-style: normal;
     font-weight: 900;
