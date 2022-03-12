@@ -1,8 +1,11 @@
+@media (min-width: 468px) and (max-width:1199px){
 .WhatWeDo {
   display: none;
 }
+}
 
-@media (min-width: 1200px) {
+
+
 .WhatWeDo .secondary-header {
   margin-bottom: 50px;
   margin-top: 0;
@@ -34,5 +37,4 @@
   width: 370px;
   height: 70px;
   background: $dark;
-}
 }
