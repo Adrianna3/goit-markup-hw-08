@@ -99,3 +99,21 @@ letter-spacing: $letter03;
  padding-bottom: 30px;
 }
  
+@media (min-width: 786px){
+  .advantages{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .advantages__Loremitem{
+    margin-bottom: 0px;
+    width: 354px;
+  }
+
+  .advantages__Loremlist{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}

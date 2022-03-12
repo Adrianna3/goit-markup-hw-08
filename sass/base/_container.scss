@@ -17,3 +17,11 @@
     width: 1200px;
   }
 }
+
+
+ @media (min-width: 468px) {
+    .container-header{
+      justify-content: space-between;
+    }
+  }
+
