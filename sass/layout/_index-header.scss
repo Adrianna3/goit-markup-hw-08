@@ -151,7 +151,9 @@
    .navigation__link-active::after {
     top: 35px;
   }
-
+.navigation__link::after {
+    top: 35px;
+  }
 }
  
 

@@ -967,6 +967,9 @@ input {
   .navigation__link-active::after {
     top: 35px;
   }
+  .navigation__link::after {
+    top: 35px;
+  }
 }
 
 @media (min-width: 1200px) {
