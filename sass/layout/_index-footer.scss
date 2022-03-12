@@ -114,6 +114,7 @@ display: flex;
     width: 100%;
   text-align: center;
 }
+
 }
 
 @media (min-width: 768px) {
@@ -128,6 +129,10 @@ display: flex;
       width: 60%;
       display: inline-block;
     }
+  }
+  .newsletter {
+    width: 100%;
+  text-align: center;
   }
 }
 

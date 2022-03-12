@@ -4,12 +4,32 @@
 
 .portfolio__list {
   display: flex;
-  align-items: center;
-  margin-left: 332px;
 }
 
 .portfolio__item {
   &:not(:last-child) {
     margin-right: 8px;
+  }
+}
+
+
+@media (min-width:468px){
+  .portfolio{
+    padding-top: 60px;
+
+   &__list{
+     flex-wrap: wrap;
+  }
+    &__item{
+    margin-bottom: 15px;
+    }
+}
+  }
+  
+
+@media (min-width:1200px){
+  .portfolio__list{
+    align-items: center; 
+    margin-left: 332px; 
   }
 }

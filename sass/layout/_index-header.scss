@@ -148,7 +148,12 @@
   .hamburger{
     display:none;
   }
+   .navigation__link-active::after {
+    top: 35px;
+  }
+
 }
+ 
 
 @media (min-width: 1200px) {
   .navigation__list{
