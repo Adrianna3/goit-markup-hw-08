@@ -817,6 +817,7 @@ input {
   }
   .footer__h4 {
     padding-top: 12px;
+    text-align: left;
   }
   .footer__right {
     margin-left: 70px;
