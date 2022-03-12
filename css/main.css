@@ -1312,6 +1312,7 @@ input {
   }
   .portfolio__list {
     flex-wrap: wrap;
+    justify-content: center;
   }
   .portfolio__item {
     margin-bottom: 15px;
@@ -1321,7 +1322,6 @@ input {
 @media (min-width: 1200px) {
   .portfolio__list {
     align-items: center;
-    margin-left: 332px;
   }
 }
 
