@@ -6,7 +6,6 @@
   .footer & {
   display: flex;
 }
-
 .header & {
   display: flex;
   align-items: center;
@@ -33,11 +32,10 @@
       height: 60px;
     }
   }
+
+
  @media (min-width: 1200px) {
     width: 1200px;
   }
-  
 }
-
-
 
