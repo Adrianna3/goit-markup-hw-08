@@ -681,7 +681,6 @@ input {
   background-color: #ffffff;
   box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
-  margin-left: auto;
   margin-right: auto;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -714,6 +713,12 @@ input {
 
 .project__img:hover .project__overlay {
   transform: translatey(-100%);
+}
+
+@media (min-width: 468px) and (max-width: 767px) {
+  .project__item {
+    margin-left: auto;
+  }
 }
 
 .footer {
@@ -1341,10 +1346,15 @@ input {
   }
   .portfolio__list {
     flex-wrap: wrap;
-    justify-content: center;
   }
   .portfolio__item {
     margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 786px) {
+  .portfolio__list {
+    justify-content: center;
   }
 }
 

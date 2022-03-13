@@ -19,7 +19,7 @@
 
    &__list{
      flex-wrap: wrap;
-     justify-content: center;
+    //  justify-content: center;
   }
     &__item{
     margin-bottom: 15px;
@@ -27,6 +27,11 @@
 }
   }
   
+  @media (min-width: 786px){
+    .portfolio__list{
+      justify-content: center;
+    }
+  }
 
 @media (min-width:1200px){
   .portfolio__list{
