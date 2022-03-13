@@ -681,7 +681,6 @@ input {
   background-color: #ffffff;
   box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
-  margin-right: auto;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -718,6 +717,7 @@ input {
 @media (min-width: 468px) and (max-width: 767px) {
   .project__item {
     margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1184,6 +1184,7 @@ input {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
   }
   .advantages__Loremh4 {
     padding-top: 30px;
@@ -1275,6 +1276,7 @@ input {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
   }
   .staff__item {
     max-width: 354px;
