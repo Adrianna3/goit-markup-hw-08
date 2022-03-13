@@ -35,11 +35,8 @@
 //   align-items: center;
 // }
 
-
-
 .customer__link {
   display: flex;
-  // width: 170px;
   height: 92px;
   border: 1px solid $light-gray;
   box-sizing: border-box;
@@ -59,17 +56,15 @@
 
 .customer__list {
   display: flex;
-  // align-items: center;
   justify-content: center;
-   margin: 0 -15px;
-    flex-wrap: wrap;
+  margin: 0 -15px;
+  flex-wrap: wrap;
 }
 
-.customer__item{
+.customer__item {
   padding: 0 15px 30px;
   flex-grow: 1;
 }
-
 
 .customer__icon {
   padding: 15px;

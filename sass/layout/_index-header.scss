@@ -1,9 +1,5 @@
 .header {
   border-bottom: 1px solid $very-light-gray;
-
-  // & .address {
-  //   margin-left: auto;
-  // }
 }
 
 .address__iconEnvelope {
@@ -22,16 +18,7 @@
 
 .address {
   display: flex;
-  // align-items: center;
 }
-
-// .header .address {
-//   margin-left: auto;
-// }
-
-// .address__mail {
-//   margin-right: 50px;
-// }
 
 .navigation__list {
   display: flex;
@@ -124,61 +111,53 @@
   }
 }
 
-
 @media (min-width: 468px) {
-  .navigation__list{
+  .navigation__list {
     display: none;
   }
-  .address{
-    display:none;
+  .address {
+    display: none;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width:1199px) {
-  .navigation__list{
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .navigation__list {
     display: flex;
-    
   }
-  .address{
-    display:flex;
+  .address {
+    display: flex;
     flex-direction: column;
-    gap: 10px
+    gap: 10px;
   }
 
-  .hamburger{
-    display:none;
+  .hamburger {
+    display: none;
   }
-   .navigation__link-active::after {
+  .navigation__link-active::after {
     top: 35px;
   }
-.navigation__link::after {
+  .navigation__link::after {
     top: 35px;
   }
 }
- 
 
 @media (min-width: 1200px) {
-  .navigation__list{
+  .navigation__list {
     display: flex;
   }
-  .address{
-    display:flex;
-   
+  .address {
+    display: flex;
   }
 
-
-    .header .address {
+  .header .address {
     margin-left: auto;
 
+    .hamburger {
+      display: none;
+    }
 
-
- .hamburger{
-    display:none;
+    .address__mail {
+      margin-right: 50px;
+    }
   }
-
-   .address__mail{
-    margin-right: 50px;
-  }
-}
-
 }

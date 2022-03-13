@@ -1,6 +1,6 @@
 .hamburger {
   border: 0;
-  background-color: white;
+  background-color: $white;
   cursor: pointer;
   &:hover,
   &:focus {
@@ -14,7 +14,7 @@
   }
 }
 
-.hamburger__icon{
-    width: 24px;
+.hamburger__icon {
+  width: 24px;
   height: 16px;
 }

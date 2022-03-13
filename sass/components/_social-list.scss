@@ -2,12 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // padding-left: 32px;
-  // padding-right: 32px;
   padding-bottom: 30px;
 }
 
-.staff__socialLink{
+.staff__socialLink {
   display: flex;
   width: 44px;
   height: 44px;
@@ -65,8 +63,7 @@
 }
 
 .footer__socialItem {
-  &:not(:last-child){
+  &:not(:last-child) {
     margin-right: 10px;
   }
-  
 }

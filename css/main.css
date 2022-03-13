@@ -264,7 +264,7 @@ input {
 
 .hamburger {
   border: 0;
-  background-color: white;
+  background-color: #ffffff;
   cursor: pointer;
 }
 
@@ -294,7 +294,7 @@ input {
   max-height: 609px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 0.04em;
 }
 
 .close-icon {
@@ -531,7 +531,7 @@ input {
   margin-top: 30px;
   margin-bottom: 10px;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
@@ -1130,7 +1130,7 @@ input {
   width: 100%;
   padding: 0 0;
   height: 120px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 

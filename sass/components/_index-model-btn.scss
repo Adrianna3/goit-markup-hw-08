@@ -1,11 +1,10 @@
 .model-btn,
-.model-btn-newsletter{
-  font-weight: 700;
+.model-btn-newsletter {
+  font-weight: $medium;
   font-size: $font16;
   line-height: 1.875;
   margin: 0 auto;
   align-items: center;
-  // text-align: center;
   letter-spacing: $letter06;
   cursor: pointer;
   display: flex;
@@ -20,23 +19,22 @@
   justify-content: center;
 }
 
-.model-btn{
+.model-btn {
   display: block;
   margin-top: 20px;
 }
 
-.model-btn-newsletter{
+.model-btn-newsletter {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 24px;
-    
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
-@media (min-width:468px) and (max-width:768px){
-  .model-btn-newsletter{
-margin-top: 30px;
+@media (min-width: 468px) and (max-width: 768px) {
+  .model-btn-newsletter {
+    margin-top: 30px;
   }
 }
 
@@ -57,12 +55,12 @@ margin-top: 30px;
   &:focus {
     border: 1px solid $accent;
     fill: $accent;
-}
+  }
 }
 
-@media (min-width:768px) and (max-width:1199px){
-  .model-btn-newsletter{
-margin-top: 30px;
+@media (min-width: 768px) and (max-width: 1199px) {
+  .model-btn-newsletter {
+    margin-top: 30px;
   }
 }
 
@@ -71,4 +69,3 @@ margin-top: 30px;
     margin: 0 0 0 10px;
   }
 }
-
