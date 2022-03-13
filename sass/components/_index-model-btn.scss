@@ -52,6 +52,12 @@ margin-top: 30px;
   border-radius: 50%;
   box-sizing: border-box;
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $accent;
+    fill: $accent;
+}
 }
 
 @media (min-width:768px) and (max-width:1199px){

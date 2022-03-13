@@ -203,6 +203,10 @@ input {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.navHamburger__link-active {
+  color: #2196f3;
+}
+
 .navHamburger__link:hover, .navHamburger__link:focus {
   color: #2196f3;
 }
@@ -596,6 +600,11 @@ input {
   border-radius: 50%;
   box-sizing: border-box;
   cursor: pointer;
+}
+
+.close-btn:hover, .close-btn:focus {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
