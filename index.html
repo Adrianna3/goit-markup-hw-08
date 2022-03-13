@@ -126,15 +126,24 @@
         <h2 class="secondary-header">Czym się zajmujemy</h2>
         <ul class="WhatWeDo__list list">
           <li class="WhatWeDo__item">
-            <img class="WhatWeDo__photo" src="images/image1.jpg" alt="Computer" width="370" height="294">
+            <img class="WhatWeDo__photo"             
+                  srcset="images/image1.jpg 1x, images/image12x.jpg 2x"
+                  src="images/image1.jpg"       
+                  alt="Computer" width="370" height="294">            
             <h4 class="WhatWeDo__h4">Aplikacje komputerowe</h4>          
           </li>
           <li class="WhatWeDo__item">
-            <img class="WhatWeDo__photo" src="images/image2.jpg" alt="Computer and telephon" width="370" height="294">
+            <img class="WhatWeDo__photo"             
+                  srcset="images/image2.jpg 1x, images/image22x.jpg 2x"
+                  src="images/image2.jpg"       
+                  alt="Computer and telephon" width="370" height="294">
             <h4 class="WhatWeDo__h4">Aplikacje mobilne</h4>   
           </li>
           <li class="WhatWeDo__item">
-            <img class="WhatWeDo__photo" src="images/image3.jpg" alt="Tablet" width="370" height="294">
+            <img class="WhatWeDo__photo"             
+                  srcset="images/image3.jpg 1x, images/image32x.jpg 2x"
+                  src="images/image3.jpg"       
+                  alt="Tablet" width="370" height="294">
             <h4 class="WhatWeDo__h4">Rozwiązania graficzne</h4>   
           </li>
         </ul>
@@ -146,12 +155,26 @@
         <h2 class="secondary-header">Nasz zespół</h2>
         <ul class="staff__list list">
             <li class="staff__item">
-                <img class="staff__img" src="images/image4.jpg" alt="John Doe, Product Designer" width="270" height="260">
+              <picture>
+                <source srcset="
+										images/image4-desktop.jpg    1x,
+										images/image4-desktop2x.jpg 2x
+									" media="(min-width: 1200px)">
+                <source srcset="
+										images/image4-tablet.jpg    1x,
+										images/image4-tablet2x.jpg 2x
+									" media="(min-width: 768px)">
+								<source srcset="
+										images/image4-mobile.jpg    1x,
+										images/image4-mobile2x.jpg 2x
+									" media="(min-width: 480px)">
+								<img class="staff__img" src="images/image4-desktop.jpg" alt="John Doe, Product Designer" width="270" height="260">
+             </picture>            
                 <h3 class="third-header">John Doe</h3>
                 <p class="staff__p">Product Designer</p>
-        <ul class="staff__socialList list">
-            <li class="staff__socialItem">
-              <a class="staff__socialLink" href="#">
+                <ul class="staff__socialList list">
+                  <li class="staff__socialItem">
+                    <a class="staff__socialLink" href="#">
               <svg class="staff__socialIcon">
                 <use href="images/icons.svg/sprite.svg#icon-instagram"></use>
               </svg>
@@ -177,7 +200,21 @@
         </ul>
             </li>
             <li class="staff__item">
-                <img class="staff__img" src="images/image5.jpg" alt="John Doe, Frontend Developer" width="270" height="260">
+              <picture>
+                <source srcset="
+										images/image5-desktop.jpg    1x,
+										images/image5-desktop2x.jpg 2x
+									" media="(min-width: 1200px)">
+                <source srcset="
+										images/image5-tablet.jpg    1x,
+										images/image5-tablet2x.jpg 2x
+									" media="(min-width: 768px)">
+								<source srcset="
+										images/image5-mobile.jpg    1x,
+										images/image5-mobile2x.jpg 2x
+									" media="(min-width: 480px)">
+								<img class="staff__img" src="images/image5-desktop.jpg" alt="John Doe, Frontend Developer" width="270" height="260">
+             </picture>            
                 <h3 class="third-header">John Doe</h3>
                 <p class="staff__p">Frontend Developer</p>
          <ul class="staff__socialList list">
@@ -208,7 +245,21 @@
         </ul>      
             </li>
             <li class="staff__item">
-                <img class="staff__img" src="images/image6.jpg" alt="John Doe, Marketing" width="270" height="260">
+              <picture>
+                <source srcset="
+										images/image6-desktop.jpg    1x,
+										images/image6-desktop2x.jpg 2x
+									" media="(min-width: 1200px)">
+                <source srcset="
+										images/image6-tablet.jpg    1x,
+										images/image6-tablet2x.jpg 2x
+									" media="(min-width: 768px)">
+								<source srcset="
+										images/image6-mobile.jpg    1x,
+										images/image6-mobile2x.jpg 2x
+									" media="(min-width: 480px)">
+								<img class="staff__img" src="images/image6-desktop.jpg" alt="John Doe, Marketing" width="270" height="260">
+             </picture> 
                 <h3 class="third-header">John Doe</h3>
                 <p class="staff__p"> Marketing</p>
        <ul class="staff__socialList list">
@@ -239,7 +290,21 @@
         </ul>        
             </li>
             <li class="staff__item">
-                <img class="staff__img" src="images/image7.jpg" alt="John Doe, UI Designer" width="270" height="260">
+              <picture>
+                <source srcset="
+										images/image7-desktop.jpg    1x,
+										images/image7-desktop2x.jpg 2x
+									" media="(min-width: 1200px)">
+                <source srcset="
+										images/image7-tablet.jpg    1x,
+										images/image7-tablet2x.jpg 2x
+									" media="(min-width: 768px)">
+								<source srcset="
+										images/image7-mobile.jpg    1x,
+										images/image7-mobile2x.jpg 2x
+									" media="(min-width: 480px)">
+								<img class="staff__img" src="images/image7-desktop.jpg" alt="John Doe, UI Designer" width="270" height="260">
+             </picture>                 
                 <h3 class="third-header">John Doe</h3>
                 <p class="staff__p">UI Designer</p>
         <ul class="staff__socialList list">
